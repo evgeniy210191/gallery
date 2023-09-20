@@ -1,0 +1,32 @@
+.search{
+  background: rgb(64, 86, 180);
+  padding-top:10px;
+  padding-bottom: 10px;
+  text-align: center;
+  .search-form{
+    text-align: center;
+    display: inline-block;
+    position: relative;
+  }
+  .place {
+    font-size: 0.7rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    max-width: 100%;
+    border: none;
+    outline: none;
+    &:focus{
+      box-shadow: 0 0 1px 1px yellow;
+    }
+  }
+  .btn {
+    position: absolute;
+    height: 100%;
+    right: 0;
+    background: #ffffff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+}
